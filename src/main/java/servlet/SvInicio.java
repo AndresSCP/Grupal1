@@ -32,18 +32,7 @@ public class SvInicio extends HttpServlet {
 		// TODO Auto-generated method stub
 //		RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
 //		dispatcher.forward(request, response);
-//		PrintWriter out = response.getWriter();
-		
-//		out.println("<html>");
-//		out.println("<head>");
-//		out.println("<title>Inicio</title>");
-//		out.println("</head>");
-//		out.println("<body>");
-//		out.println("<h1>Pagina de inicio</h1>");
-//		out.println("<p>Esta es la pagina de INICIOOOOOO</p>");
-//		out.println("</body>");
-//		out.println("</html>");
-		 //obtener una instancia del objeto RequestDispatcher
+//		PrintWriter out = response.getWriter();		
         RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
         //redirigir la solicitud a la pagina JSP
         dispatcher.forward(request, response);
