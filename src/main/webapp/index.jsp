@@ -13,7 +13,7 @@
 </head>
 <body class="vh-100">
 	<%@include file="extras/Navbar.jsp"%>
-	<div class="row pt-7 mt-200" >
+	<div class="row" >
 		<div
 			class="col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
 			<h2 class>¿Quiénes somos?</h2>
