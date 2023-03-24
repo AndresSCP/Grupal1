@@ -13,6 +13,7 @@
 </head>
 <body>
 	<%@include file="extras/Navbar.jsp"%>
+	<body style="background-color: Lavender;">
 	<div class="container">
 		<h1 class="text-center">Formulario de Contacto</h1>
 		<form action="index.jsp" method="post">
