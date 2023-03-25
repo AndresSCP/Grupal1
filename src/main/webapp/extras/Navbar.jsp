@@ -13,7 +13,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="formContacto.jsp">Contacto</a>
-        </li>       
+        </li>
+         <li class="nav-item">
+          
+        </li>       <li class="nav-item">
+          <a class="nav-link" href="formContacto.jsp">Lista de Capacitaciones</a>
+        </li>             
       </ul>      
     </div>
   </div>
