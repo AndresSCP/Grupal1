@@ -51,4 +51,5 @@
 		crossorigin="anonymous"></script>
 
 </body>
+<footer><%@include file="extras/footer.jsp"%></footer>
 </html>
