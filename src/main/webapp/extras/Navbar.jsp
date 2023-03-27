@@ -17,7 +17,7 @@
          <li class="nav-item">
           
         </li>       <li class="nav-item">
-          <a class="nav-link" href="formContacto.jsp">Lista de Capacitaciones</a>
+          <a class="nav-link" href="ListarCapacitaciones.jsp">Lista de Capacitaciones</a>
         </li>             
       </ul>      
     </div>
