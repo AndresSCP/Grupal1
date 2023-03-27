@@ -20,13 +20,14 @@ if (session.getAttribute("username") == null) {
 		<h1 class="text-center">Creacion de capacitacion</h1>
 		<form action="index.jsp" method="post">
 			<div class="form-group">
-				<label for="nombre">Nombre completo:</label>
+				<label for="nombre">Nombre de capacitacion:</label>
 				<input type="text" id="nombre" name="nombre" class="form-control" required>
 			</div>
+				
 
 			<div class="form-group">
-				<label for="email">Correo electrónico:</label>
-				<input type="email" id="email" name="email" class="form-control" required>
+				<label for="nombre">Rut:</label>
+				<input type="number" id="rut" name="rut" class="form-control" required>
 			</div>
 			
 			<div class="form-group">
@@ -34,19 +35,36 @@ if (session.getAttribute("username") == null) {
 				<input type="date" id="fecha" name="fecha">
 				
 			</div>
-
 			<div class="form-group">
-				<label for="asunto">Asunto:</label>
-				<input type="text" id="asunto" name="asunto" class="form-control" required>
+				<label for="nombre">Hora:</label>
+				<input type="number" id="rut" name="rut" class="form-control" required>
 			</div>
 
-			<div class="form-group">
-				<label for="mensaje">Mensaje:</label>
-				<textarea id="mensaje" name="mensaje" class="form-control" required></textarea>
-			</div>
+			
+			  <div class="col-md-3">
+   				 <label for="validationDefault04" class="form-label">Lugar</label>
+    			<select class="form-select" id="validationDefault04" required>
+      			<option selected enable value="">Valparaiso</option>
+      			<option selected enable value="">Villa Alemana</option>
+     		 	<option selected enable value="">Santiago</option>
+     		 	<option selected enable value="">Quillota</option>
+    			</select>
+  			</div>
+			 <div class="col-md-3">
+    			<label for="validationDefault05" class="form-label">Duracion</label>
+    			<input type="number" class="form-control" id="Duracion" required>
+  			</div>
+  			<br>
+  			
+  			<div class="col-md-3">
+    			<label for="validationDefault05" class="form-label">Cantidad de Asistentes</label>
+    			<input type="number" class="form-control" id="Duracion" required>
+  			</div>
+  			
 
 			<button type="submit" class="btn btn-primary">Enviar</button>
 		</form>
 	</div>
 </body>
+<%@include file="extras/footer.jsp"%>
 </html>

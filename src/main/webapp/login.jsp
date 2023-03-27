@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="css/Style.css">
 </head>
 <body>
+<h1 class="text-center">Inicio de sesión</h1>
 
 	<div class="conteiner-fluid">
 		<div class="row">
@@ -39,6 +40,7 @@
 			</div>
 		</div>
 	</div>
+	<br>
 	<%
 	if (request.getAttribute("mensajeError") != null) {
 	%>
@@ -54,6 +56,8 @@
 	<%
 	}
 	%>
+	
+	<%@include file="extras/footer.jsp"%>
 	<script
 		src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -63,4 +67,5 @@
 		integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
 		crossorigin="anonymous"></script>
 </body>
+
 </html>
