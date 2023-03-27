@@ -21,5 +21,13 @@
         </li>             
       </ul>      
     </div>
+    <div>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link disabled">Usuario:
+						<%=session.getAttribute("username")%></a></li>
+				<li class="nav-item"><a class="nav-link" href="login.jsp">Cerrar
+						sesión</a></li>
+			</ul>
+		</div>
   </div>
 </nav>
